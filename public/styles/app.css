@@ -1,0 +1,39 @@
+.main-form {
+    width: 50%;
+    margin: auto;
+}
+
+.main-form-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.required-star-span {
+    color: red;
+}
+
+.enter-detail-heading {
+    text-align: center;
+    padding-top: 2%;
+}
+
+.toast-success {
+    background-color: #51a351 !important;
+}
+
+.toast-error {
+    background-color: #bd362f !important;
+}
+
+.upper-div-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.scrollable-table {
+    height: 300px !important;
+    overflow-x: scroll;
+}
